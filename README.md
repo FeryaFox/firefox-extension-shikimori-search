@@ -1,33 +1,19 @@
-# ArchLinux Search
+# Shikimori Search
 
-![AUR version](https://img.shields.io/aur/version/firefox-extension-arch-search)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/noraj/firefox-extension-arch-search)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/noraj/firefox-extension-arch-search)
 ![GitHub](https://img.shields.io/github/license/noraj/firefox-extension-arch-search)
 
-![image](https://user-images.githubusercontent.com/16578570/95793622-4edc3d80-0ce6-11eb-8122-a48bca577fb1.png)
-
-A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR, man pages) as
+A set of Web Extensions that adds Shikimori (bug tracker, forum, packages, wiki, AUR, man pages) as
 a search engine to the Firefox browser (using the [chrome_settings_overrides](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides) manifest key).
 Submits the query via GET request for compatibility with [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
 
-Available search engines:
+# Gratitudes
 
-name                                   | shortcut   | Install
----------------------------------------|------------|-----------
-ArchLinux Packages Search              | `alpkgs`   | [AMO][arch-pkgs]
-ArchLinux Wiki Search                  | `alwiki`   | [AMO][arch-wiki]
-ArchLinux User Repository (AUR) Search | `alaur`    | [AMO][arch-aur]
-ArchLinux Bugtracker (by FS) Search    | `albugsfs` | [AMO][arch-bugs-fs]
-ArchLinux Bugtracker (by text) Search  | `albugst`  | [AMO][arch-bugs-t]
-ArchLinux Forum (by author) Search     | `alforuma` | [AMO][arch-forum-a]
-ArchLinux Forum (by keywords) Search   | `alforumk` | [AMO][arch-forum-k]
-ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
+Many thanks to the [noraj](https://github.com/noraj) for the idea and implementation.
+
 
 ## Install
 
-- On ArchLinux: `pikaur -S firefox-extension-arch-search`
-- On any other OS: install the extensions manually via AMO (**A**ddons **MO**zilla) following the links above
+- Manual installation. `npm run buildAll`. And then according to [instrustion](https://wiki.mozilla.org/Installing_Extensions)
 
 ## Develop Locally
 
@@ -52,13 +38,3 @@ ArchLinux manual pages                 | `alman`    | [AMO][arch-man]
 - It's possible to add the search engines by clicking the plus button on the search bar, so why an extension?
   - It's  way quicker to install the extension rather than manually adding the search engines. An extension also allows automation.
   - The bug tracker & the forum use advanced search with several parameters so it's not possible to add them manually via the search bar, an extension is mandatory.
-
-[amo]:(https://addons.mozilla.org/)
-[arch-aur]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-aur-search/
-[arch-bugs-fs]:https://addons.mozilla.org/en-US/firefox/addon/arch-bugtracker-by-fs-search/
-[arch-bugs-t]:https://addons.mozilla.org/en-US/firefox/addon/arch-bugtracker-by-text-search/
-[arch-forum-a]:https://addons.mozilla.org/en-US/firefox/addon/arch-forum-by-author-search/
-[arch-forum-k]:https://addons.mozilla.org/en-US/firefox/addon/arch-forum-by-keywords-search/
-[arch-pkgs]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-packages-search/
-[arch-wiki]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-wiki-search/
-[arch-man]:https://addons.mozilla.org/en-US/firefox/addon/archlinux-manual-pages-search/

@@ -1,21 +1,21 @@
 {
   "name": "firefox-extension-arch-search",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "license": "MIT",
-  "description": "A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser.",
-  "author": "noraj",
+  "description": "A set of Web Extensions that adds Shikimori (anime, manga, ranobe, forum, clubs, critiques, articles, users) as a search engine to the Firefox browser.",
+  "author": "FeryaFox",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noraj/firefox-extension-arch-search.git"
+    "url": "git+https://github.com/FeryaFox/firefox-extension-shikimori-search.git"
   },
   "bugs": {
-    "url": "https://github.com/noraj/firefox-extension-arch-search/issues"
+    "url": "https://github.com/FeryaFox/firefox-extension-shikimori-search/issues"
   },
-  "homepage": "https://github.com/noraj/firefox-extension-arch-search",
+  "homepage": "https://github.com/FeryaFox/firefox-extension-shikimori-search",
   "keywords": [
-    "webextensions",
     "firefox",
-    "archlinux"
+    "webextensions",
+    "shikimori"
   ],
   "scripts": {
     "lint": "web-ext lint",
