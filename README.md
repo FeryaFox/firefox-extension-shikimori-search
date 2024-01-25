@@ -6,6 +6,19 @@ A set of Web Extensions that adds Shikimori (bug tracker, forum, packages, wiki,
 a search engine to the Firefox browser (using the [chrome_settings_overrides](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides) manifest key).
 Submits the query via GET request for compatibility with [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/).
 
+Avaible in [AMO](https://addons.mozilla.org/):
+
+| name                       | shortcut | Install                                                                           |
+|----------------------------|----------|-----------------------------------------------------------------------------------|
+| Shikimori Anime Search     | `shan`   | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-anime-search/)     |
+| Shikimori Articles Search  | `shar`   | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-articles-search/)  |
+| Shikimori Clubs Search     | `shcl`   | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-clubs-search/)     |
+| Shikimori Critiaues Search | `shcr`   | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-critiaues-search/) |
+| Shikimori Forum Search     | `shf`    | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-forum-search/)     |
+| Shikimori Manga Search     | `shm`    | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-manga-search/)                                                                           |
+| Shikimori Ranobe Search    | `shr`    | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-ranobe-search/)                                                               |
+| Shikimori Users Search     | `shu`    | [AMO](https://addons.mozilla.org/en-US/firefox/addon/shikimori-users-search/)                                                                |
+
 # Gratitudes
 
 Many thanks to the [noraj](https://github.com/noraj) for the idea and implementation.
@@ -13,7 +26,9 @@ Many thanks to the [noraj](https://github.com/noraj) for the idea and implementa
 
 ## Install
 
+- Intall from [AMO](https://addons.mozilla.org/) (Available extensions are shown in the table above)
 - Manual installation. `npm run buildAll`. And then according to [instrustion](https://wiki.mozilla.org/Installing_Extensions)
+
 
 ## Develop Locally
 
